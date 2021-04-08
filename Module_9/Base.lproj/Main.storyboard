@@ -376,16 +376,48 @@
         <!--C-->
         <scene sceneID="Z6Q-mP-hsD">
             <objects>
-                <viewController id="xjI-hL-N4J" sceneMemberID="viewController">
+                <viewController id="xjI-hL-N4J" customClass="Task3Controller" customModule="Module_9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IpV-ib-mzv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsN-qK-Gnf">
+                                <rect key="frame" x="100" y="64" width="214" height="149.5"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149.5" id="UMC-Uu-xfF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Em-kh-i8I">
+                                <rect key="frame" x="163.5" y="243.5" width="87" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Свернуть"/>
+                                <connections>
+                                    <action selector="onHideShow:" destination="xjI-hL-N4J" eventType="touchUpInside" id="pkq-UO-DRf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xVn-5n-wWa"/>
                         <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Em-kh-i8I" firstAttribute="top" secondItem="YsN-qK-Gnf" secondAttribute="bottom" constant="30" id="1Q2-vr-hjl"/>
+                            <constraint firstItem="YsN-qK-Gnf" firstAttribute="top" secondItem="xVn-5n-wWa" secondAttribute="top" constant="20" id="Dgt-N4-yrE"/>
+                            <constraint firstItem="YsN-qK-Gnf" firstAttribute="leading" secondItem="xVn-5n-wWa" secondAttribute="leading" constant="100" id="cto-tX-aiA"/>
+                            <constraint firstItem="0Em-kh-i8I" firstAttribute="centerX" secondItem="IpV-ib-mzv" secondAttribute="centerX" id="j4E-H5-5qX"/>
+                            <constraint firstItem="xVn-5n-wWa" firstAttribute="trailing" secondItem="YsN-qK-Gnf" secondAttribute="trailing" constant="100" id="vLW-VC-ieo"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="C" id="eMd-iY-MRa">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="button" destination="0Em-kh-i8I" id="SRR-6s-S57"/>
+                        <outlet property="label" destination="YsN-qK-Gnf" id="2C1-Na-mei"/>
+                        <outlet property="labelHeightConstraint" destination="UMC-Uu-xfF" id="bTp-Ld-qei"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vxs-y1-91u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
