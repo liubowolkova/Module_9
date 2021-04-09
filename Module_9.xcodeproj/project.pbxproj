@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52008F832620702A0023B3C1 /* Task1_3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008F822620702A0023B3C1 /* Task1_3Controller.swift */; };
+		52008F86262070400023B3C1 /* Task1_4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008F85262070400023B3C1 /* Task1_4Controller.swift */; };
 		521C10AA261EFD4B00698E71 /* Task3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C10A9261EFD4B00698E71 /* Task3Controller.swift */; };
 		527F584525C5AE5B00A33876 /* Task1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F584425C5AE5B00A33876 /* Task1Controller.swift */; };
 		527F584925C5E96700A33876 /* Task2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F584825C5E96700A33876 /* Task2Controller.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52008F822620702A0023B3C1 /* Task1_3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1_3Controller.swift; sourceTree = "<group>"; };
+		52008F85262070400023B3C1 /* Task1_4Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1_4Controller.swift; sourceTree = "<group>"; };
 		521C10A9261EFD4B00698E71 /* Task3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Controller.swift; sourceTree = "<group>"; };
 		527F584425C5AE5B00A33876 /* Task1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Controller.swift; sourceTree = "<group>"; };
 		527F584825C5E96700A33876 /* Task2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Controller.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				52D3B66425C1254D005C373D /* AppDelegate.swift */,
 				52D3B66625C1254D005C373D /* SceneDelegate.swift */,
 				52D3B66A25C1254D005C373D /* Main.storyboard */,
+				52008F822620702A0023B3C1 /* Task1_3Controller.swift */,
+				52008F85262070400023B3C1 /* Task1_4Controller.swift */,
 				521C10A9261EFD4B00698E71 /* Task3Controller.swift */,
 				52D3B66D25C1254E005C373D /* Assets.xcassets */,
 				52D3B66F25C1254E005C373D /* LaunchScreen.storyboard */,
@@ -145,9 +151,11 @@
 			files = (
 				521C10AA261EFD4B00698E71 /* Task3Controller.swift in Sources */,
 				527F584525C5AE5B00A33876 /* Task1Controller.swift in Sources */,
+				52008F832620702A0023B3C1 /* Task1_3Controller.swift in Sources */,
 				527F584925C5E96700A33876 /* Task2Controller.swift in Sources */,
 				52D3B66525C1254D005C373D /* AppDelegate.swift in Sources */,
 				52D3B66725C1254D005C373D /* SceneDelegate.swift in Sources */,
+				52008F86262070400023B3C1 /* Task1_4Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
