@@ -15,7 +15,8 @@ class Task1_3Controller: UIViewController {
 
         let screenSize = UIScreen.main.bounds
         let halfOfScreenSize = screenSize.height / 2
-        self.changeConstraint(self.button1HeigthConstraint, halfOfScreenSize)
+        let oneButtonHeight = halfOfScreenSize / 3
+        self.changeConstraint(self.button1HeigthConstraint, oneButtonHeight)
     }
     
     func changeConstraint(_ constraint: NSLayoutConstraint, _ value: CGFloat) {
