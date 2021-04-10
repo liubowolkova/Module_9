@@ -1,5 +1,5 @@
 # Module_9 Skillbox iOS-dev
-===========================
+
 ## Work with constraints
 ---------------------------
 #### There are three tasks:
