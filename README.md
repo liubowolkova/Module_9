@@ -1,6 +1,6 @@
 # Module_9 Skillbox iOS-dev
 
-## Work with constraints
+## Work with Autolayout, Constraints and StackViews
 ---------------------------
 #### There are three tasks:
 - Button positioning (storyboard)
